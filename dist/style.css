@@ -822,10 +822,6 @@ video {
     display: none;
   }
 
-  .md\:w-80 {
-    width: 20rem;
-  }
-
   .md\:w-\[550px\] {
     width: 550px;
   }
