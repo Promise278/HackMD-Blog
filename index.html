@@ -10,27 +10,27 @@
     <title>The HackMD Blog:</title>
 </head>
 <body class="bg-black text-white">
-    <nav class="m-6 flex justify-between ">
+    <nav class="m-6 flex justify-between fixed inset-x-0 top-0 z-30 backdrop-blur">
         <div>
             <img class="w-36" src="/img/logo-full.svg" alt="">
         </div>
         <div>
             <ul class="flex gap-4 md:flex hidden">
-                <li class="hover:underline">Blog</li>
-                <li class="hover:underline">Product</li>
-                <li class="hover:underline">Company</li>
-                <li class="hover:underline">Changelog</li>
-                <li class="hover:underline">Education</li>
+                <li class="hover:underline cursor-pointer">Blog</li>
+                <li class="hover:underline cursor-pointer">Product</li>
+                <li class="hover:underline cursor-pointer">Company</li>
+                <li class="hover:underline cursor-pointer">Changelog</li>
+                <li class="hover:underline cursor-pointer">Education</li>
             </ul>
         </div>
         <div class="flex gap-4">
             <button class="border-2 border-gray-700 h-10 w-20 rounded-md md:block hidden">Sign in</button>
-            <button class="border-1.8 border-gray-700 h-10 w-36 rounded-md bg-gradient-to-r from-purple-600 to-indigo-500 hover:from-purple-700 hover:to-indigo-600 md:mr-0 mr-16">Get HackMD free</button>
+            <button class="border-1.8 border-gray-700 h-10 w-36 rounded-md bg-gradient-to-r from-purple-600 to-indigo-500 hover:from-purple-700 hover:to-indigo-600 md:mr-0 mr-6">Get HackMD free</button>
         </div>
         <ion-icon id="menu-open" name="menu" class="text-3xl cursor-pointer text-white md:hidden"></ion-icon>
     </nav>
 
-    <div class="flex justify-center gap-12 mt-32 md:flex-row flex-col md:ml-0 ml-4">
+    <div class="flex justify-center gap-12 mt-52 md:flex-row flex-col md:ml-0 ml-4">
         <div>
             <img src="/img/firstimage.jpg" class="rounded-md md:w-[550px] w-96" alt="">
         </div>
@@ -157,7 +157,7 @@
         </div>
     </div>
 
-    <div class="bg-indigo-950 rounded-3xl md:mx-28 mx-6 mt-12 md:h-60 h-80 sm:ml-4 flex justify-center">
+    <div class="bg-indigo-950 rounded-3xl md:mx-28 mx-6 mt-12 md:h-60 h-80 sm:ml-4 flex justify-center" style="background-image: ('https://hackmd.io/bg-gradient-light-purple-rectangle.svg');">
         <div class="">
             <h3 class="font-bold text-5xl pt-10 md:pl-0 pl-4">Get started for free</h3>
             <p class="pt-4 pl-6">Play around with it first. Pay and add your team later.</p>
