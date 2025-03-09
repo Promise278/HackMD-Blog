@@ -693,10 +693,6 @@ video {
   width: 13rem;
 }
 
-.w-72 {
-  width: 18rem;
-}
-
 .w-8 {
   width: 2rem;
 }
@@ -1096,6 +1092,10 @@ video {
 
   .md\:pl-12 {
     padding-left: 3rem;
+  }
+
+  .md\:pt-0 {
+    padding-top: 0px;
   }
 
   .md\:text-5xl {
